@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Section - Manage Projects</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../CSS">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../admin.css">
+
+    <!-- Font Awesome Icons  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+
+<!-- Header -->
+<section id="header">
+    <div class="header container">
+        <div class="nav-bar">
+            <div class="brand">
+                <a href="#hero">
+                    <h1><span>G</span>raphics <span>D</span>esign</h1>
+                </a>
+            </div>
+            <div class="nav-list">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                </div>
+                <div class="nav-items">
+                    <ul>
+                        <li><a href="../../index2.html" data-after="Home">Home</a></li>
+                        <li><a href="../../index2.html" data-after="Service">Services</a></li>
+                        <li><a href="../../index2.html" data-after="Projects">Projects</a></li>
+                        <li><a href="../../index2.html" data-after="About">About</a></li>
+                        <li><a href="../../index2.html" data-after="Contact">Contact</a></li>
+                        <li class="user">
+                            <a href="#">
+                                <i class="fa-solid fa-user"></i>
+                                Swathi Sree
+                                <i class="fa-solid fa-chevron-down" style="font-size: .8em;"></i>
+                            </a>
+                            <ul>
+                                <li><a href="#" style="color: white;">Dashboard</a></li>
+                                <li><a href="../../index.html" class="Logout">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Header -->
+
+    <!---------------------------- Admin Section -------------------------------------->
+    <div class="admin-wrapper">
+        
+        <!-- Left Sidebar -->
+        <div class="left-sidebar">
+            <ul>
+                <li><a href="./index.html">Manage Projects</a></li>
+                <li><a href="../users/index.html">Manage Users</a></li>
+                <li><a href="../services/index.html">Manage Services</a></li>            
+            </ul>
+        </div>
+    
+        <!-- Admin Content -->
+        <div class="admin-content">
+            <div class="button-group">
+                <a href="./create.html" class="admin-btn btn-blg">Add Project</a>
+                <a href="./index.html" class="admin-btn btn-blg">Manage Project</a>
+            </div>
+
+            <div class="content">
+                <h2 class="page-title">Manage Projects</h2>
+
+                <table>
+                    <thead>
+                        <th>S. No.</th>
+                        <th>Project Title</th>
+                        <th>Company</th>
+                        <th colspan="3">Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>This is the title of the project</td>
+                            <td>ABC</td>
+                            <td><a href="#" class="edit">Edit</a></td>
+                            <td><a href="#" class="delete">Delete</a></td>
+                            <td><a href="#" class="publish">Publish</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>This is the title of the project</td>
+                            <td>XYZ</td>
+                            <td><a href="#" class="edit">Edit</a></td>
+                            <td><a href="#" class="delete">Delete</a></td>
+                            <td><a href="#" class="publish">Publish</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>This is the title of the project</td>
+                            <td>ACF</td>
+                            <td><a href="#" class="edit">Edit</a></td>
+                            <td><a href="#" class="delete">Delete</a></td>
+                            <td><a href="#" class="publish">Publish</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

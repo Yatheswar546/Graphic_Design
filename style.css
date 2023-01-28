@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+body{
+    scroll-behavior: smooth;
+}
+.button{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    background-color: rgb(55, 52, 59);
+    border-radius: 10px;
+}
+.button a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.button:hover{
+    background-color: rgb(25, 23, 26);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+/****************************** Navbar **************************/
+
+#header .nav-items{
+    float: right;
+    position: relative;
+    line-height: 10px;
+    height: inherit;
+    top: 10px;
+    margin-right:-80px;
+}
+#header ul li{
+    float: left;
+}
+#header ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    font-size: 25px;
+}
+#header .nav-items .user{
+    margin-top: -5px;
+}
+#header .nav-items ul li ul{
+    position: absolute;
+    top: 45px;
+    left: 700px;
+    width: 180px;
+    display: none;
+    background: rgb(53, 52, 52);
+}
+#header ul li:hover ul{
+    display: block;
+    transition: .2s;
+}
+#header ul li ul li{
+    width: 100%;
+}
+#header ul li ul li a{
+    padding: 10px;
+    color: black;
+}
+#header ul li ul li a.Logout{
+    color: red;
+}
+#header ul li ul li a:hover{
+    background: rgb(96, 101, 101);
+    color: black;
+}
+#header ul li ul li a.Logout:hover{
+    color: red;
+}
+
+/********************* Project *********************************/
+.single{
+    position: relative;
+    top: 0px;
+    min-height: 100vh;
+    padding: 40px;
+}
+.single .blog-title{
+    padding: 8px;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 15px;
+}
+.single img{
+    width: 90%;
+    height: 450px;
+    position: relative;
+    left: 50px;
+}
+.single .blog-content p{
+    padding: 20px;
+}
+.single .post-creator{
+    padding: 30px;
+    margin-left: 20px;
+}
+.single .post-creator i{
+    font-size: 30px;
+}
+.single .post-creator span{
+    font-size: 25px;
+}
+.single .date{
+    padding: 30px;
+    margin-left: 20px;
+}
+.single .date i{
+    font-size: 30px;
+}
+.single .date span{
+    font-size: 25px;
+}
+.single .button{
+    margin-left: 50px;
+    padding: 15px;
+}
+
+/******************************* Login Form **********************/
+.form-body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgb(65, 61, 67));
+    border: 1px solid red;
+}
+.form{
+    position: absolute;
+    width: 20%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(222, 220, 223);
+    border-radius: 20px;
+}
+.form h1{
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+.form input{
+    display: block;
+    padding: 15px;
+    margin: 20px;
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px rgb(54, 51, 56);
+}
+.form .form-btn{
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    margin-left: 50px;
+    background-color: rgb(69, 66, 71);
+    border-radius: 20px;
+    font-size: 20px;
+}
+.form .form-btn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.form .form-btn a{
+    color: aliceblue;
+}
+.form .links{
+    padding: 10px;
+    margin-left: 80px;
+}
+.form .links a{
+    color: black;
+    font-size: 15px;
+}
+.form a{
+    display: block;
+    padding: 2px;
+    color: white;
+}
+.form a:hover{
+    color:rgb(65, 61, 69);
+}
+
+/********************* Registration Form **********************/
+.form.register{
+    position: absolute;
+    top: 50%;
+    height: 80%;
+}
